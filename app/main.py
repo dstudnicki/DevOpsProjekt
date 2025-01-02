@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    data = {"message": "Welcome in my Flask app!"}
+    data = {"message": "Welcome to my Flask app!"}
     return render_template('index.html', data=data)
 
 if __name__ == '__main__':
